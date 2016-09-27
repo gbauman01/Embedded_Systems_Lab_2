@@ -1,0 +1,156 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="16" name="allObjects">
+    <object class="IBCarbonRootControl" id="240">
+      <array count="2" name="subviews">
+        <object class="IBCarbonStaticText" id="241">
+          <ostype name="controlSignature">ERRO</ostype>
+          <int name="controlID">1</int>
+          <string name="title">Error</string>
+          <string name="bounds">7 5 127 476 </string>
+        </object>
+        <object class="IBCarbonButton" id="242">
+          <ostype name="controlSignature">ERRO</ostype>
+          <int name="controlID">2</int>
+          <ostype name="command">t_Ok</ostype>
+          <string name="title">OK</string>
+          <string name="bounds">129 206 149 276 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 157 482 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="230">
+      <ostype name="controlSignature">ABCD</ostype>
+      <int name="controlID">132</int>
+      <string name="title">Recomposing data ...</string>
+      <string name="bounds">191 19 207 410 </string>
+    </object>
+    <reference idRef="242"/>
+    <object class="IBCarbonButton" id="252">
+      <ostype name="controlSignature">ABCD</ostype>
+      <int name="controlID">136</int>
+      <ostype name="command">quit</ostype>
+      <int name="buttonType">2</int>
+      <string name="title">Exit</string>
+      <string name="bounds">241 388 261 478 </string>
+    </object>
+    <object class="IBCarbonButton" id="251">
+      <ostype name="controlSignature">ABCD</ostype>
+      <int name="controlID">135</int>
+      <boolean name="enabled">FALSE</boolean>
+      <ostype name="command">tRes</ostype>
+      <string name="title">Resume</string>
+      <string name="bounds">241 290 261 376 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="190">
+      <ostype name="controlSignature">ABCD</ostype>
+      <int name="controlID">130</int>
+      <string name="title">Please wait while the Adobe Reader 8 Setup is being recomposed. This will take a few seconds depending on your operating system and hardware.</string>
+      <string name="bounds">87 34 188 466 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="243">
+      <ostype name="controlSignature">ABCD</ostype>
+      <int name="controlID">133</int>
+      <string name="title">0%</string>
+      <int name="justification">-1</int>
+      <string name="bounds">191 429 207 478 </string>
+    </object>
+    <reference idRef="241"/>
+    <object class="IBCarbonProgressBar" id="229">
+      <ostype name="controlSignature">ABCD</ostype>
+      <int name="controlID">131</int>
+      <boolean name="indeterminate">FALSE</boolean>
+      <string name="bounds">214 18 233 479 </string>
+    </object>
+    <object class="IBCarbonButton" id="250">
+      <ostype name="controlSignature">ABCD</ostype>
+      <int name="controlID">134</int>
+      <ostype name="command">tPau</ostype>
+      <int name="buttonType">1</int>
+      <string name="title">Pause</string>
+      <string name="bounds">241 189 261 278 </string>
+    </object>
+    <object class="IBCarbonWindow" id="239">
+      <boolean name="hasCloseBox">TRUE</boolean>
+      <boolean name="hasHorizontalZoom">TRUE</boolean>
+      <boolean name="hasVerticalZoom">TRUE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="themeBrush">3</int>
+      <int name="windowPosition">1</int>
+      <string name="title">Error</string>
+      <reference name="rootControl" idRef="240"/>
+      <string name="windowRect">364 300 521 782 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <object class="IBCarbonPicture" id="249">
+      <int name="contentResID">129</int>
+      <string name="bounds">248 20 260 126 </string>
+    </object>
+    <object class="IBCarbonPicture" id="248">
+      <int name="contentResID">128</int>
+      <string name="bounds">0 0 60 498 </string>
+    </object>
+    <object class="IBCarbonWindow" id="166">
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <int name="themeBrush">1</int>
+      <int name="windowPosition">1</int>
+      <string name="title">iNOSSO® for Adobe Reader 8</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="167">
+        <array count="9" name="subviews">
+          <reference idRef="190"/>
+          <reference idRef="229"/>
+          <reference idRef="230"/>
+          <reference idRef="243"/>
+          <reference idRef="248"/>
+          <reference idRef="249"/>
+          <reference idRef="250"/>
+          <reference idRef="251"/>
+          <reference idRef="252"/>
+        </array>
+        <string name="bounds">0 0 275 498 </string>
+      </object>
+      <string name="windowRect">317 212 592 710 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <object class="IBCarbonMenu" id="29">
+      <string name="title">SimpleHello</string>
+      <string name="name">_NSMainMenu</string>
+    </object>
+    <reference idRef="167"/>
+  </array>
+  <array count="16" name="allParents">
+    <reference idRef="239"/>
+    <reference idRef="167"/>
+    <reference idRef="240"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="240"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="1"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="1"/>
+    <reference idRef="1"/>
+    <reference idRef="166"/>
+  </array>
+  <dictionary count="4" name="nameTable">
+    <string>Error</string>
+    <reference idRef="239"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>MainWindow</string>
+    <reference idRef="166"/>
+    <string>MenuBar</string>
+    <reference idRef="29"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">253</unsigned_int>
+</object>
